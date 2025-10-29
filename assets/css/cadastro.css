@@ -29,7 +29,7 @@ body {
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 8px;
-    padding: 4px;
+    padding: 4px;text-decoration: none;
 }
 
 .header-btn {
@@ -39,15 +39,18 @@ body {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 10px 55px;
     border-radius: 6px;
     flex: 1;
     transition: all 0.3s;
+    text-decoration: none;
 }
 
 .header-btn.active {
     background-color: white;
     color: #70A1B3;
+    text-decoration: none;
+    text-decoration: none;
 }
 
 h1 {
@@ -90,6 +93,7 @@ input {
     margin: 20px auto 0;
     display: block;
     transition: background-color 0.3s;
+    text-decoration: none;
 }
 
 .butn:hover {
